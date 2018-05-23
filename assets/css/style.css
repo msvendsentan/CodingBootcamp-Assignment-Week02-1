@@ -174,12 +174,8 @@ footer {
 
 
 
-
-
-
-
 @media screen and (max-width: 980px) {
-    body {
+    #index {
         position: relative;
     }
 
@@ -201,7 +197,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    #index {
         position: relative;
     }
 
@@ -223,7 +219,7 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-    body {
+    #index {
         position: relative;
     }
 
