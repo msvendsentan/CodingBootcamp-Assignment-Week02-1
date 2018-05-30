@@ -1,6 +1,6 @@
 html {
-    min-height: 100%;
-    position: relative;
+    height: 100%;
+    margin: 0px;
 }
 
 body {
@@ -165,16 +165,23 @@ input[type=submit]:hover {
     background-color: #308580;
 }
 
+#push {
+    height: 60px;
+}
+
+#negmargin {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+
 footer {
-    clear: both;
+
     background-color: #666666;
     border-style: solid;
     border-width: 10px 0px 0px 0px;
     border-color: #4aaaa5;
     height: 50px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 
